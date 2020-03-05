@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<title>My Example</title>
+
+
+
+</head>
+
+<body>
+<center>
+<form class="myForm" method="get" enctype="application/x-www-form-urlencoded" action="/html/codes/html_form_handler.cfm">
+
+
+<h2>
+Skills required for training:<input type="text"><br><br>
+</h2>
+
+<h2>
+Nuber of Participants:<input type="text"><br><br>
+</h2>
+<p>
+<label>Date/Time
+<input type="datetime-local" name="pickup_time" required>
+</label>
+</p>
+	
+
+Duration of Training:<input type="Date">
+To:<input type="Date"><br><br>
+
+<p>
+<label>Location
+<select id="pickup_place" name="pickup_place">
+<option value="" selected="selected">Select One</option>
+<option value="Mumbai" >Mumbai</option>
+<option value="Pune" >Pune</option>
+<option value="Chennai" >Chennai</option>
+</select>
+</label> 
+</p>
+
+
+
+<input type="button" value="Approved" />
+<input type="button" value="Denied" />
+
+
+</form>
+</center>
+</body>
+</html>
